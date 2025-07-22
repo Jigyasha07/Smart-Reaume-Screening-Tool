@@ -1,7 +1,9 @@
 streamlit
 pdfplumber
-pytesseract
 pandas
 scikit-learn
 nltk
+numpy
+easyocr
+torch
 Pillow
