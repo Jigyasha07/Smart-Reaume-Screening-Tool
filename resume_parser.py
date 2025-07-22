@@ -3,8 +3,10 @@ import pdfplumber
 import easyocr
 import numpy as np
 
+reader = easyocr.Reader(['en'], gpu=False)
 # Initialize EasyOCR reader (only once)
-reader = easyocr.Reader(['en'])
+
+
 
 def extract_text_from_pdf_or_image(file):
     if file.name.endswith('.pdf'):
